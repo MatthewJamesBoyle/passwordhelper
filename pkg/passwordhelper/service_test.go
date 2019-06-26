@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"password-helper/pkg/passwordhelper"
+	"passwordhelper/pkg/passwordhelper"
 )
 
 func TestService_GetCharAt(t *testing.T) {
@@ -92,7 +92,7 @@ func TestService_GetCharAt(t *testing.T) {
 	})
 	t.Run("maintains case of requests chars", func(t *testing.T) {
 		s := passwordhelper.Service{}
-		res, err := s.CharsAt("IaMD1ff3RentCaz0s", 1,4,7,8)
+		res, err := s.CharsAt("IaMD1ff3RentCaz0s", 1, 4, 7, 8)
 		require.NoError(t, err)
 		assert.Equal(t, "I,D,f,3", *res)
 	})

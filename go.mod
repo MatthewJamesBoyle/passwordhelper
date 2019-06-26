@@ -1,4 +1,4 @@
-module password-helper
+module passwordhelper
 
 go 1.12
 
