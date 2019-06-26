@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"passwordhelper/pkg/passwordhelper"
+	"github.com/MatthewJamesBoyle/passwordhelper/pkg/passwordhelper"
 )
 
 func main() {

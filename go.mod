@@ -1,4 +1,4 @@
-module passwordhelper
+module github.com/MatthewJamesBoyle/passwordhelper
 
 go 1.12
 
