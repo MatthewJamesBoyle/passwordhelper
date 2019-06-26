@@ -10,7 +10,7 @@ Example
 `passwordhelper mypassword0000 1 4 6`
 `> m,a,s`
 
-## nstallation 
+## Installation 
 ### From Releases
 Download the latest release binary, rename it to `passwordhelper` move it to `/usr/local/bin` (or anyone else on your path).
 You should now be able to run passwordhelper.
